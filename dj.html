@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JXOY – DJ Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/dj.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">Johnny Vo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="dj.html">JXOY</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- DJ Section -->
+  <section class="dj-section py-5">
+    <div class="container text-center">
+      <h2 class="text-white mb-4">JXOY – Feel the Vibe</h2>
+      <p class="text-muted mb-5">Live sets, original mixes, and unforgettable moments behind the decks.</p>
+
+      <!-- DJ Images -->
+      <div class="row g-4 mb-5">
+        <div class="col-md-6">
+          <img src="images/WCBF-JXOY.png" alt="Johnny DJing" class="img-fluid rounded shadow" />
+        </div>
+        <div class="col-md-6">
+          <img src="images/TAL-JXOY.png" alt="Johnny on stage" class="img-fluid rounded shadow" />
+        </div>
+      </div>
+
+      <!-- Audio Tracks -->
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="bg-dark p-4 rounded shadow h-100">
+            <h5 class="text-white">🎶We Can't Be Dun 🎶</h5>
+            <audio controls class="w-100 mt-2">
+              <source src="audio/set1.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+            <p class="text-muted mt-2">A raw, high-energy mix recorded live in Austin.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="bg-dark p-4 rounded shadow h-100">
+            <h5 class="text-white">🎶 This Ain't Love 🎶</h5>
+            <audio controls class="w-100 mt-2">
+              <source src="audio/set2.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+            <p class="text-muted mt-2">Studio vibes — smooth transitions, heavy drops.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
